@@ -1,4 +1,5 @@
 
+from playsound import playsound
 from re import X
 import turtle
 
@@ -24,6 +25,7 @@ def paddle_a_up():
     y = player.ycor()
     y += 20
     player.sety(y)
+    playsound('/data/WAHOO.wav')
 
 def paddle_a_down():
     y = player.ycor()
