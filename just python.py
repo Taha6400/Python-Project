@@ -46,8 +46,8 @@ def paddle_a_left():
 wn.listen()
 wn.onkeypress(paddle_a_up, "w")
 wn.onkeypress(paddle_a_down, "s")
-wn.onkeypress(paddle_a_right, "a")
-wn.onkeypress(paddle_a_left, "d")
+wn.onkeypress(paddle_a_right, "d")
+wn.onkeypress(paddle_a_left, "a")
 
 
 # Main game loop
