@@ -7,7 +7,7 @@ wn.bgcolor("black")
 wn.setup(width=800, height=600)
 wn.tracer(0)
 
-# Paddle A
+# Player
 
 player = turtle.Turtle()
 player.speed(0)
