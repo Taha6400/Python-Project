@@ -28,13 +28,26 @@ def paddle_a_down():
     y = player.ycor()
     y -= 20
     player.sety(y)
+    
+def paddle_a_right():
+    x = player.xcor()
+    x += 20
+    player.setx(x)
+
+def paddle_a_left():
+    x = player.xcor()
+    x -= 20
+    player.setx(x)
 
 
 
 #Keyboard binding
+
 wn.listen()
 wn.onkeypress(paddle_a_up, "w")
 wn.onkeypress(paddle_a_down, "s")
+wn.onkeypress(paddle_a_right, "a")
+wn.onkeypress(paddle_a_left, "d")
 
 
 # Main game loop
