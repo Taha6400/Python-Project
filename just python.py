@@ -15,7 +15,7 @@ player.shape("square")
 player.color("green")
 player.shapesize(stretch_wid=2.5, stretch_len=2.5)
 player.penup()
-player.goto(00, 0)
+player.goto(00,0)
 
 # Function
 
