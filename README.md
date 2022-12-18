@@ -11,5 +11,3 @@ d for right
 and a for left
 
 I like python and its easy so lets try i guess!
-
-if you be added to this repo just Dm me in discord! 
