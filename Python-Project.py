@@ -6,21 +6,31 @@ import os
 
 wn = turtle.Screen()
 wn.title("Python-Project")
-wn.bgcolor("black")
+wn.bgpic("s.gif")
 wn.setup(width=800, height=600)
 wn.tracer(0)
 
 # Player
 
 player = turtle.Turtle()
-player.speed(0)
-player.shape("square")
 player.color("green")
 player.shapesize(stretch_wid=2.5, stretch_len=2.5)
 player.penup()
-player.goto(00,0)
+player.speed(3)
+player.goto(00,-170)
+player.shape("circle")
+
+# Object
+
+o = turtle.Turtle()
+o.color("yellow")
+o.penup()
+o.shape("circle")
+o.goto(219,-108)
+o.shapesize(stretch_wid=2, stretch_len=2)
 
 # Function
+
 
 def paddle_a_up():
     y = player.ycor()
